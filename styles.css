@@ -1,10 +1,12 @@
 body {
     padding-top: 80px;
+    background-color: #eee;
 }
 
 .container-fluid {
     padding: 0;
 }
+
 /* navbar */
 
 .navbar-default {
@@ -40,7 +42,7 @@ body {
     min-height: 80px;
 /*  text-align: center;
     font-size: 24px;*/
-    background-color: rgba(256, 256, 256, 0.8);
+    background-color: rgb(256, 256, 256);
     border: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -85,6 +87,16 @@ body {
 
 #navbar > li {
     color: rgb(144, 238, 144);
+}
+
+.banner {
+    background: url(assets/banner.png) center top no-repeat;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    visibility: hidden;
 }
 
 .content-block-one {

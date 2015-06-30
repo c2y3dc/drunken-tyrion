@@ -13,18 +13,18 @@ $(document).ready(function() {
     //     });
     // }
     $(window).scroll(function() {
-    if ($(this).scrollTop() > 1) {
+    if ($(this).scrollTop() > 0) {
         $('.navbar').addClass("sticky");
     } else {
         $('.navbar').removeClass("sticky");
     }
 
     if ($(window).width() < 769) {
-        $('.navbar-default').removeClass("sticky").removeClass("navbar-fixed-top").addClass("navbar-static-top");
+        $('.navbar-default').removeClass("sticky").removeClass("navbar-fixed-top").addClass("navbar-static-top").addClass("sticky").css("background-color", "rgba(0,0,0,0.6)");
     }
 
     if ($(window).width() > 768) {
-        $('.navbar-default').addClass('navbar-fixed-top');
+        $('.navbar-default').addClass('navbar-fixed-top').css("background-color", "rgba(256,256,256,0.8)");
     }
 });
 
