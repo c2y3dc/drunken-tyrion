@@ -13,14 +13,14 @@ $(document).ready(function() {
     //     });
     // }
     $(window).scroll(function() {
-    if ($(this).scrollTop() > 0.5) {
+    if ($(this).scrollTop() > 1) {
         $('.navbar').addClass("sticky");
     } else {
         $('.navbar').removeClass("sticky");
     }
 
     if ($(window).width() < 769) {
-        $('.navbar-default').removeClass("sticky").removeClass("navbar-fixed-top").addClass("navbar-static-top").css("background-color", "rgba(256,256,256,256,0.8");
+        $('.navbar-default').removeClass("sticky").removeClass("navbar-fixed-top").addClass("navbar-static-top");
     }
 
     if ($(window).width() > 768) {
