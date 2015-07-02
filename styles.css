@@ -1,5 +1,6 @@
-body {
-    padding-top: 50px;
+html, body {
+    height: 100%;
+    padding-top: 1.5rem;
     background-color: #eee;
 }
 
@@ -104,21 +105,22 @@ body {
     font-family: 'Helvetica';
     position: relative;
     left: 3rem;
-    top: 8rem;
+    top: 6rem;
     color: white;
 }
 
 .bannerheading2{
-    font-family: 'Helvetica';
+    font-family: 'Arial';
     color: white;
     float: right;
     right: 3rem;
-    bottom: 7rem;
+    bottom: 6rem;
     position: relative;
 }
 
-.heading {
-    font-size: 3rem;
+.heading p{
+    font-size: 2.2rem;
+    font-weight: 100;
 }
 
 .content-block-one {
@@ -152,8 +154,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .heading {
-        font-size: 5rem;
+    .heading p{
+        font-size: 4rem;
+        font-weight: 200;
     }
     .content-block-one {
         padding-top: 48px;
@@ -182,18 +185,6 @@ body {
     padding-bottom: 100px;
 }
 
-.content-space-two {
-    padding: 0px;
-    margin-bottom: 0px;
-    color: white;
-    background: url(https://download.unsplash.com/photo-1430598825529-927d770c194f) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 .content {
     padding: 150px 0;
@@ -204,4 +195,78 @@ body {
     height: 3px;
     background-color: #fff;
     margin: 0 auto;
+}
+.footer
+{
+    width:960px;
+    float:right;
+    text-align:right;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.image-links,.links
+{
+    display:inline-block;
+}
+.image-links
+{
+    vertical-align:middle;
+    position:relative;
+}
+.image-links img
+{
+    margin-left:2px;
+}
+.social {
+list-style-type:none;
+margin:0;
+padding:0;
+height:35px;
+width:180px;
+}
+
+ul.social a {
+display:block;
+height:35px;
+width:35px;
+text-indent:-9999px;
+}
+
+ul.social li {
+float:left;
+margin-right:10px;
+}
+
+.social_twitter a {
+background:url(assets/social-media_twitter.png);
+}
+
+.social_twitter a:hover {
+background:url(assets/social-media_twitter.png);
+}
+
+.social_facebook a {
+background:url(assets/social-media_facebook.png);
+}
+
+.social_facebook a:hover {
+background:url(assets/social-media_facebook.png);
+}
+
+.social_linkedin a {
+background:url(assets/social-media_linkedin.png);
+}
+
+.social_linkedin a:hover {
+background:url(assets/social-media_linkedin.png);
+}
+
+.social_users a {
+background:url(assets/social-media_pisquare.png);
+}
+
+.social_users a:hover {
+background:url(assets/social-media_pisquare.png);
 }
