@@ -162,36 +162,6 @@ body {
     max-width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-    .heading p {
-        font-size: 4rem;
-        font-weight: 300;
-        text-shadow: none;
-    }
-    .content-block-one {
-        padding-top: 48px;
-        padding-bottom: 48px;
-    }
-    .container .content-block-one {
-        padding-right: 60px;
-        padding-left: 60px;
-    }
-    .content-block-one h1,
-    .content-block-one .h1 {
-        font-size: 63px;
-    }
-    .flex-container {
-        display: flex;
-        width: 80rem;
-        margin: 0 auto;
-        flex-wrap: wrap;
-    }
-    .tiles {
-        background-color: dodgerblue;
-        flex: 30rem 1;
-        margin: 1rem;
-    }
-}
 
 .content-space-one {
     padding: 0px;
@@ -218,16 +188,45 @@ body {
 .tiles {
     background-color: dodgerblue;
     flex: 38rem 1;
-    margin: 1rem;
+    margin: 1rem auto;
+    max-width: 40rem;
 }
 
 .tiles > .icon {
     background-color: lightblue;
     float: left;
+    margin-right: 1rem;
 }
 
 .button {
     background-color: lightgreen;
+}
+
+@media only screen and (min-width: 768px) {
+    .heading p {
+        font-size: 4rem;
+        font-weight: 300;
+        text-shadow: none;
+    }
+    .content-block-one {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .container .content-block-one {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .content-block-one h1,
+    .content-block-one .h1 {
+        font-size: 63px;
+    }
+    .flex-container {
+        width: 80rem;
+        margin: 0 auto;
+    }
+    .tiles {
+        margin: 1rem 1rem 1rem 1rem;
+    }
 }
 
 .page-break {
