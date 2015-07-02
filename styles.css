@@ -3,7 +3,7 @@ html, body {
     padding-top: 2rem;
     background-color: #eee;
     font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
 }
 
 .container-fluid {
@@ -103,11 +103,16 @@ html, body {
     visibility: hidden;
 }
 
+/*.banner-container{
+    overflow: hidden;
+}*/
+
 .bannerheading1{
     position: relative;
     left: 3rem;
     top: 6rem;
     color: white;
+    width: 80%;
 }
 
 .bannerheading2{
@@ -121,7 +126,8 @@ html, body {
 .heading p {
     font-size: 3rem;
     font-weight: 300;
-    text-shadow: 0.8px 1px 1px rgba(0, 0, 0, 0.9); ;
+    text-shadow: 0.8px 1px 1px rgba(0, 0, 0, 0.9);
+    margin: 0;
 }
 
 .content-block-one {
@@ -186,10 +192,34 @@ html, body {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-
 .content {
-    padding: 150px 0;
+    /*padding: 150px 0;*/
+    /*background-color: white;*/
+}
+.flex-container{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+.tiles{
+    background-color: dodgerblue;
+    flex: 1;
+    margin: 1rem;
+}
+.tiles > .icon{
+    background-color: lightblue;
+    float: left;
+}
+
+.tiles > .content {
+    color: white;
+}
+
+.button {
+    background-color: lightgreen;
 }
 
 .page-break {
