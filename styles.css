@@ -1,7 +1,9 @@
 html, body {
     height: 100%;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .container-fluid {
@@ -102,7 +104,6 @@ html, body {
 }
 
 .bannerheading1{
-    font-family: 'Helvetica';
     position: relative;
     left: 3rem;
     top: 6rem;
@@ -110,7 +111,6 @@ html, body {
 }
 
 .bannerheading2{
-    font-family: 'Arial';
     color: white;
     float: right;
     right: 3rem;
@@ -118,16 +118,17 @@ html, body {
     position: relative;
 }
 
-.heading p{
-    font-size: 2.2rem;
-    font-weight: 100;
+.heading p {
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 0.8px 1px 1px rgba(0, 0, 0, 0.9); ;
 }
 
 .content-block-one {
     padding: 30px;
     margin-bottom: 0px;
     color: inherit;
-    background-color: #eee;
+    background-color: white;
 }
 
 .content-block-one h1,
@@ -138,7 +139,7 @@ html, body {
 .content-block-one p {
     margin-bottom: 15px;
     font-size: 21px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .content-block-one > hr {
@@ -156,7 +157,8 @@ html, body {
 @media screen and (min-width: 768px) {
     .heading p{
         font-size: 4rem;
-        font-weight: 200;
+        font-weight: 300;
+        text-shadow: none;
     }
     .content-block-one {
         padding-top: 48px;
