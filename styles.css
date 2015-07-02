@@ -161,8 +161,6 @@ body {
 .content-block-one .container {
     max-width: 100%;
 }
-
-
 .content-space-one {
     padding: 0px;
     margin-bottom: 0px;
@@ -192,11 +190,21 @@ body {
     max-width: 40rem;
 }
 
-.tiles > .icon {
+.icon {
     background-color: lightblue;
-    float: left;
+/*    float: left;*/
     margin-right: 1rem;
+    width: 33%;
 }
+
+.inner-flex{
+    display: flex;
+}
+
+.tile-text {
+    flex: 1;
+}
+
 
 .button {
     background-color: lightgreen;
@@ -225,7 +233,7 @@ body {
         margin: 0 auto;
     }
     .tiles {
-        margin: 1rem 1rem 1rem 1rem;
+        margin: 1rem;
     }
 }
 
