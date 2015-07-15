@@ -224,6 +224,7 @@ body {
 
 .desc {
     color: white;
+    padding: 0 0 0 0.5rem;
     font-size: 2rem;
     line-height: 2.5rem;
     min-height: 6.5rem;
@@ -236,7 +237,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    box-shadow: 0.08rem 0.08rem 0.02rem rgba(0,0,0,0.5)
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.2)
 /*    position: relative;
     bottom: 0;*/
 }
