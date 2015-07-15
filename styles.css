@@ -178,6 +178,7 @@ body {
     /*    display:inline;*/
 }
 
+/*tile container*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -187,15 +188,30 @@ body {
     background-color: dodgerblue;
     flex: 38rem 1;
     margin: 1rem auto;
-    max-width: 40rem;
+    max-width: 60rem;
+    max-height: 16rem;
+    /*position: relative;*/
 }
+
+/*tile specific css*/
+
 
 .icon {
     background-color: lightblue;
+    height: 16rem;
+    width: 16rem;
 /*    float: left;*/
-    margin-right: 1rem;
-    width: 33%;
+/*    margin: 0rem;
+    width: 33%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.icon > img {
+    width: 12rem;
+}
+
 
 .inner-flex{
     display: flex;
@@ -203,12 +219,39 @@ body {
 
 .tile-text {
     flex: 1;
+    margin: 1rem;
 }
 
+.desc {
+    color: white;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    min-height: 6.5rem;
+}
 
 .button {
     background-color: lightgreen;
+    min-height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+/*    position: relative;
+    bottom: 0;*/
 }
+.button p {
+    text-align: center;
+    margin: 1rem;
+    line-height: 1.5rem;
+    /*min-width: 30rem ;*/
+    flex: 34;
+}
+.button img {
+    flex: 1;
+    margin: 1rem 1rem 1rem 0;
+}
+
+
 
 @media only screen and (min-width: 768px) {
     .heading p {
@@ -229,7 +272,7 @@ body {
         font-size: 63px;
     }
     .flex-container {
-        width: 80rem;
+        width: 100rem;
         margin: 0 auto;
     }
     .tiles {
