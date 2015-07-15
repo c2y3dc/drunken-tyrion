@@ -190,7 +190,7 @@ body {
     margin: 1rem auto;
     max-width: 60rem;
     max-height: 16rem;
-    /*position: relative;*/
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 /*tile specific css*/
@@ -236,6 +236,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 1rem;
+    box-shadow: 0.08rem 0.08rem 0.02rem rgba(0,0,0,0.5)
 /*    position: relative;
     bottom: 0;*/
 }
