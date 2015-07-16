@@ -1,10 +1,8 @@
 html,
 body {
-    /*    height: 100%;*/
     padding-top: 2rem;
     background-color: #eee;
     font-family: 'Open Sans', sans-serif;
-    /*    overflow-x: hidden;*/
 }
 
 .container-fluid {
@@ -27,15 +25,7 @@ body {
 
 .navbar-brand {
     float: left;
-    /*line-height: 100%;*/
-    /*height: 100%;*/
 }
-
-
-/*.navbar-toggle {
-    padding: auto 10px;
-}
-*/
 
 .navbar-wrapper {
     position: absolute;
@@ -64,12 +54,6 @@ body {
 }
 
 .sticky {
-    /*    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
-    text-transform: lowercase;
-    font-family: "Helvetica";
-    font-size: 14px;
-    font-weight: 500;*/
-    /*width: 100%;*/
     min-height: 40px;
     background: rgba(256, 256, 256, 0.9);
 }
@@ -106,11 +90,6 @@ body {
 .banner img {
     visibility: hidden;
 }
-
-
-/*.banner-container{
-    overflow: hidden;
-}*/
 
 .bannerheading1 {
     position: relative;
@@ -193,35 +172,6 @@ body {
     margin: 1rem auto;
     max-width: 60rem;
     max-height: 16rem;
-    /*box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);*/
-}
-
-.trans {
-    overflow: hidden;
-    cursor: pointer;
-    outline: 0;
-    border: 0;
-    border-radius: 0;
-    -webkit-transition: all 0.15s ease-in-out;
-    -o-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
-}
-
-.tiles:hover,
-.tiles:active,
-.tiles.active,
-.tiles:focus,
-.tiles:active:focus,
-.tiles.active:focus,
-.strips:hover,
-.strips:active,
-.strips.active,
-.strips:focus,
-.strips:active:focus,
-.strips.active:focus {
-    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -269,6 +219,7 @@ body {
 }
 
 .button p {
+    color: white;
     text-align: center;
     margin: 1rem;
     line-height: 1.5rem;
@@ -281,27 +232,37 @@ body {
     margin: 1rem 1rem 1rem 0;
 }
 
+a:link {
+    text-decoration: none;
+    border: none;
+}
+
+a:visited {
+    text-decoration: none;
+    border: none;
+}
+
+a:active {
+    text-decoration: none;
+    border: none;
+}
+
+a:hover {
+    text-decoration: none;
+    border: none
+}
+
 
 /* Strip Specific CSS*/
-
-
-/*.strips-container{
-    flex: 38rem 1;
-}*/
 
 .strips {
     background-color: rgb(255, 153, 51);
     margin: 1rem;
     height: 3rem;
-    /*box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);*/
 }
 
 .strip1 {
     width: 30rem;
-}
-
-.strip2 {
-    /*width: 48rem;*/
 }
 
 .strips p {
@@ -344,12 +305,12 @@ body {
         margin: 1rem;
     }
     .content-container {
-        width: 1280px;
+        width: 100rem;
         margin: 0 auto;
     }
     .footer {
         margin: 0 auto;
-        padding: 10rem;
+        padding: 30rem;
     }
 }
 
@@ -407,15 +368,7 @@ ul.social li {
     background: url(assets/social-media_twitter.png);
 }
 
-.social_twitter a:hover {
-    background: url(assets/social-media_twitter.png);
-}
-
 .social_facebook a {
-    background: url(assets/social-media_facebook.png);
-}
-
-.social_facebook a:hover {
     background: url(assets/social-media_facebook.png);
 }
 
@@ -423,14 +376,40 @@ ul.social li {
     background: url(assets/social-media_linkedin.png);
 }
 
-.social_linkedin a:hover {
-    background: url(assets/social-media_linkedin.png);
-}
-
 .social_users a {
     background: url(assets/social-media_pisquare.png);
 }
 
-.social_users a:hover {
-    background: url(assets/social-media_pisquare.png);
+.trans {
+    overflow: hidden;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.tiles:hover,
+.tiles:active,
+.tiles.active,
+.tiles:focus,
+.tiles:active:focus,
+.tiles.active:focus,
+.strips:hover,
+.strips:active,
+.strips.active,
+.strips:focus,
+.strips:active:focus,
+.strips.active:focus,
+.social > li:hover,
+.social > li:active,
+.social > li.active,
+.social > li:focus,
+.social > li:active:focus,
+.social > li.active:focus {
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
 }
