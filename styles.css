@@ -1,7 +1,6 @@
 html,
 body {
     /*    height: 100%;*/
-    
     padding-top: 2rem;
     background-color: #eee;
     font-family: 'Open Sans', sans-serif;
@@ -11,6 +10,8 @@ body {
 .container-fluid {
     padding: 0;
 }
+
+
 /* navbar */
 
 .navbar-default {
@@ -29,6 +30,8 @@ body {
     /*line-height: 100%;*/
     /*height: 100%;*/
 }
+
+
 /*.navbar-toggle {
     padding: auto 10px;
 }
@@ -46,7 +49,6 @@ body {
     min-height: 80px;
     /*  text-align: center;
     font-size: 24px;*/
-    
     background-color: rgb(256, 256, 256);
     border: 0;
     -webkit-transition: all 0.3s;
@@ -68,7 +70,6 @@ body {
     font-size: 14px;
     font-weight: 500;*/
     /*width: 100%;*/
-    
     min-height: 40px;
     background: rgba(256, 256, 256, 0.9);
 }
@@ -105,6 +106,8 @@ body {
 .banner img {
     visibility: hidden;
 }
+
+
 /*.banner-container{
     overflow: hidden;
 }*/
@@ -161,6 +164,7 @@ body {
 .content-block-one .container {
     max-width: 100%;
 }
+
 .content-space-one {
     padding: 0px;
     margin-bottom: 0px;
@@ -174,11 +178,9 @@ body {
     padding-bottom: 100px;
 }
 
-.content {
-    /*    display:inline;*/
-}
 
 /*tile container*/
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -190,18 +192,18 @@ body {
     margin: 1rem auto;
     max-width: 60rem;
     max-height: 16rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
-/*tile specific css*/
 
+/*tile specific css*/
 
 .icon {
     background-color: lightblue;
     height: 16rem;
     width: 16rem;
-/*    float: left;*/
-/*    margin: 0rem;
+    /*    float: left;*/
+    /*    margin: 0rem;
     width: 33%;*/
     display: flex;
     align-items: center;
@@ -212,8 +214,7 @@ body {
     width: 12rem;
 }
 
-
-.inner-flex{
+.inner-flex {
     display: flex;
 }
 
@@ -237,10 +238,9 @@ body {
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.2)
-/*    position: relative;
-    bottom: 0;*/
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2)
 }
+
 .button p {
     text-align: center;
     margin: 1rem;
@@ -248,12 +248,48 @@ body {
     /*min-width: 30rem ;*/
     flex: 34;
 }
+
 .button img {
     flex: 1;
     margin: 1rem 1rem 1rem 0;
 }
 
 
+/* Strip Specific CSS*/
+
+
+/*.strips-container{
+    flex: 38rem 1;
+}*/
+
+.strips {
+    background-color: rgb(255, 153, 51);
+    margin: 1rem;
+    height: 3rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.strip1 {
+    width: 30rem;
+}
+
+.strip2 {
+    /*width: 48rem;*/
+}
+
+.strips p {
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    line-height: 3rem;
+    display: inline;
+}
+
+.strips img {
+    float: right;
+    width: 1.6rem;
+    margin: 1rem;
+}
 
 @media only screen and (min-width: 768px) {
     .heading p {
@@ -280,6 +316,14 @@ body {
     .tiles {
         margin: 1rem;
     }
+    .content-container {
+        width: 1280px;
+        margin: 0 auto;
+    }
+    .footer {
+        margin: 0 auto;
+        padding: 10rem;
+    }
 }
 
 .page-break {
@@ -290,7 +334,7 @@ body {
 }
 
 .footer {
-    width: 960px;
+    width: 100%;
     float: right;
     text-align: right;
     display: block;
