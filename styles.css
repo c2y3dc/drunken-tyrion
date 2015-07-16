@@ -187,24 +187,50 @@ body {
 }
 
 .tiles {
-    background-color: dodgerblue;
+    color: white;
+    background-color: rgb(5, 125, 191);
     flex: 38rem 1;
     margin: 1rem auto;
     max-width: 60rem;
     max-height: 16rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+    /*box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);*/
+}
+
+.trans {
+    overflow: hidden;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.tiles:hover,
+.tiles:active,
+.tiles.active,
+.tiles:focus,
+.tiles:active:focus,
+.tiles.active:focus,
+.strips:hover,
+.strips:active,
+.strips.active,
+.strips:focus,
+.strips:active:focus,
+.strips.active:focus {
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.5);
 }
 
 
 /*tile specific css*/
 
 .icon {
-    background-color: lightblue;
+    background-color: rgb(91, 163, 208);
     height: 16rem;
     width: 16rem;
-    /*    float: left;*/
-    /*    margin: 0rem;
-    width: 33%;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,7 +258,8 @@ body {
 }
 
 .button {
-    background-color: lightgreen;
+    font-size: 1.7rem;
+    background-color: rgb(128, 168, 17);
     min-height: 3.5rem;
     display: flex;
     align-items: center;
@@ -266,7 +293,7 @@ body {
     background-color: rgb(255, 153, 51);
     margin: 1rem;
     height: 3rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+    /*box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);*/
 }
 
 .strip1 {
