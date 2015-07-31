@@ -24,7 +24,7 @@ $(document).ready(function() {
     }
 
     if ($(window).width() > 768) {
-        $('.navbar-default').addClass('navbar-fixed-top').css("background-color", "rgba(256,256,256,0.8)");
+        $('.navbar-default').addClass('navbar-fixed-top').css("background-color", "rgba(256,256,256,0.95)");
     }
 });
 

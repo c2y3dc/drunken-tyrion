@@ -1,6 +1,6 @@
 html,
 body {
-    padding-top: 2rem;
+    padding-top: 3.1rem;
     background-color: #eee;
     font-family: 'Open Sans', sans-serif;
 }
@@ -55,7 +55,7 @@ body {
 
 .sticky {
     min-height: 40px;
-    background: rgba(256, 256, 256, 0.9);
+    background: rgba(256, 256, 256, 0.8);
 }
 
 .sticky #logo {
@@ -80,18 +80,29 @@ body {
     color: rgb(144, 238, 144);
 }
 
+.bannerbg{
+    background-color: rgb(5, 125, 191);
+}
+
 .banner {
-    background: url(assets/banner.png) center top no-repeat;
+    padding: 0px;
+    margin-bottom: 0px;
+    background: url(assets/microsite-banner.png) center top no-repeat;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+/*    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+/*    padding-top: 50px;
+    padding-bottom: 50px;*/
 }
 
 .banner img {
     visibility: hidden;
 }
 
-.bannerheading1 {
+/*.bannerheading1 {
     position: relative;
     left: 3rem;
     top: 6rem;
@@ -105,7 +116,7 @@ body {
     right: 3rem;
     bottom: 6rem;
     position: relative;
-}
+}*/
 
 .heading p {
     font-size: 3rem;
@@ -163,6 +174,7 @@ body {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    /*min-width: 48rem;*/
 }
 
 .tiles {
@@ -171,16 +183,16 @@ body {
     flex: 38rem 1;
     margin: 1rem auto;
     max-width: 60rem;
-    max-height: 16rem;
+    max-height: 20rem;
+    min-width: 40rem;
 }
-
 
 /*tile specific css*/
 
 .icon {
     background-color: rgb(91, 163, 208);
-    height: 16rem;
-    width: 16rem;
+    min-height: 16rem;
+    min-width: 16rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,7 +235,7 @@ body {
     text-align: center;
     margin: 1rem;
     line-height: 1.5rem;
-    /*min-width: 30rem ;*/
+    /*min-width: 30rem;*/
     flex: 34;
 }
 
@@ -261,9 +273,9 @@ a:hover {
     height: 3rem;
 }
 
-.strip1 {
+/*.strip1 {
     width: 30rem;
-}
+}*/
 
 .strips p {
     color: white;
@@ -298,8 +310,12 @@ a:hover {
         font-size: 63px;
     }
     .flex-container {
-        width: 100rem;
+        width: 100%;
         margin: 0 auto;
+    }
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .tiles {
         margin: 1rem;
@@ -310,7 +326,6 @@ a:hover {
     }
     .footer {
         margin: 0 auto;
-        padding: 15%;
     }
 }
 
@@ -405,13 +420,8 @@ ul.social li {
 .strips.active,
 .strips:focus,
 .strips:active:focus,
-.strips.active:focus,
-.social > li:hover,
-.social > li:active,
-.social > li.active,
-.social > li:focus,
-.social > li:active:focus,
-.social > li.active:focus {
+.strips.active:focus
+ {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.55);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.55);
