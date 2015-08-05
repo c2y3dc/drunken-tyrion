@@ -426,3 +426,7 @@ ul.social li {
     -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.55);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.55);
 }
+
+.pi-server-h2{
+    font-weight: 580;
+}
