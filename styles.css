@@ -126,6 +126,10 @@ body {
     margin: 0;
 }
 
+.bannerheading2 p{
+    font-size: 2.5rem;
+}
+
 .abso{
     position: relative;
     top: 0;
@@ -300,7 +304,7 @@ a:hover {
 @media only screen and (min-width: 768px) {
     .heading p {
         font-size: 4rem;
-        font-weight: 300;
+        font-weight: 400;
         text-shadow: none;
     }
     .content-block-one {
@@ -332,6 +336,9 @@ a:hover {
     }
     .footer {
         margin: 0 auto;
+    }
+    .bannerheading2 p {
+        font-size: 3rem;
     }
 }
 
