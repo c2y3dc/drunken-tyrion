@@ -82,12 +82,13 @@ body {
 
 .bannerbg{
     background-color: rgb(5, 125, 191);
+    position: relative;
 }
 
 .banner {
     padding: 0px;
     margin-bottom: 0px;
-    background: url(assets/microsite-banner.png) center top no-repeat;
+    background: url(assets/modern-piserver-blank.png) center top no-repeat;
     width: 100%;
     overflow: hidden;
 /*    -webkit-background-size: cover;
@@ -102,27 +103,32 @@ body {
     visibility: hidden;
 }
 
-/*.bannerheading1 {
-    position: relative;
-    left: 3rem;
-    top: 6rem;
+.bannerheading1 {
+    position: absolute;
+/*    left: 3rem;*/
+    top: 2.5rem;
     color: white;
     width: 80%;
 }
 
 .bannerheading2 {
+    position: relative;
     color: white;
     float: right;
-    right: 3rem;
-    bottom: 6rem;
-    position: relative;
-}*/
+    /*right: 25rem;*/
+    bottom: 2.5rem;
+}
 
 .heading p {
     font-size: 3rem;
     font-weight: 300;
     text-shadow: 0.8px 1px 1px rgba(0, 0, 0, 0.9);
     margin: 0;
+}
+
+.abso{
+    position: relative;
+    top: 0;
 }
 
 .content-block-one {
