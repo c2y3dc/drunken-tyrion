@@ -20,6 +20,7 @@
     <!-- Custom styles for this template -->
     <link href="styles.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <style>[data-sr]{visibility: hidden;}</style>
 </head>
 
 <body>
@@ -36,7 +37,7 @@
     <!-- </div> -->
     <div class="container-fluid bannerbg">
         <div class="container bc">
-            <div class="bannerheading1 heading">
+            <div class="bannerheading1 heading" data-sr="wait .2s">
                 <p>The Modern PI System
                     <!--   <abbr title="The PI System is a suite of software products that are used for data collection, historicizing, finding, analyzing, delivering, and visualizing. It is marketed as an enterprise infrastructure for management of real-time data and events." class="initialism">PI System</abbr> -->
                 </p>
@@ -45,23 +46,23 @@
             <div class="banner">
                 <img src="assets/modern-piserver-blank.png" />
             </div>
-            <div class="bannerheading2 heading">
+            <div class="bannerheading2 heading" data-sr="wait .4s">
                 <p>Are you ready for the future?</p>
             </div>
         </div>
     </div>
     <div class="content-block-one">
         <div class="container">
-            <h2><span class="pi-server-h2">PI Server 2015: More than just a historian</span></h2>
-            <p>Introducing the latest in data infrastructure, PI Server 2015 enables improved decision-making with context and standardization, analyses, events, and now predictive data that can be leveraged throughout the integrated PI System environment.</p>
-            <p>See what the latest capabilities can do for you and learn why now is a great time to plan your upgrades.
+            <h2><span class="pi-server-h2" data-sr="wait .6s">PI Server 2015: More than just a historian</span></h2>
+            <p data-sr="wait .7s">Introducing the latest in data infrastructure, PI Server 2015 enables improved decision-making with context and standardization, analyses, events, and now predictive data that can be leveraged throughout the integrated PI System environment.</p>
+            <p data-sr="wait .8s">See what the latest capabilities can do for you and learn why now is a great time to plan your upgrades.
             </p>
         </div>
     </div>
     <br>
     <div class="container">
         <div class="flex-container">
-            <div class="tiles trans t1">
+            <div class="tiles trans t1" data-sr="wait .8s">
                 <a href="https://www.youtube.com/watch?v=0MglijxFCcM">
                     <div class="inner-flex">
                         <div class="icon"><img src="assets/icon-target.png" /></div>
@@ -78,7 +79,7 @@
                     </div>
                 </a>
             </div>
-            <div class="tiles trans t2">
+            <div class="tiles trans t2" data-sr="wait .9s">
                 <a href="assets/TopTen_LT_EN.pdf">
                     <div class="inner-flex">
                         <div class="icon"><img src="assets/icon-clipboard.png" /></div>
@@ -94,7 +95,7 @@
                     </div>
                 </a>
             </div>
-            <div class="tiles trans t3">
+            <div class="tiles trans t3" data-sr="wait .8s">
                 <a href="assets/BR_Asset Jumpstart_LT_EN.pdf">
                     <div class="inner-flex">
                         <div class="icon"><img src="assets/icon-stopwatch.png" /></div>
@@ -110,7 +111,7 @@
                     </div>
                 </a>
             </div>
-            <div class="tiles trans t4">
+            <div class="tiles trans t4" data-sr="wait .9s">
                 <a href="https://techsupport.osisoft.com/Troubleshooting/KB/KB00833">
                     <div class="inner-flex">
                         <div class="icon"><img src="assets/icon-lock.png" /></div>
@@ -128,13 +129,13 @@
             </div>
             <div class="strips-container">
                 <a href="https://techsupport.osisoft.com/Products/">
-                    <div class="strips trans strip1">
+                    <div class="strips trans strip1" data-sr="wait .7s">
                         <p>Access the latest software</p>
                         <img src="assets/arrow-double.png" />
                     </div>
                 </a>
                 <a href="http://pages.osisoft.com/Modern-PI-System.html">
-                    <div class="strips trans strip2">
+                    <div class="strips trans strip2" data-sr="wait .8s">
                         <p>Get information about professional services</p>
                         <img src="assets/arrow-double.png" />
                     </div>
@@ -145,21 +146,21 @@
     <br>
     <div class="footer">
         <div class="container">
-            <div class="links">
+            <div class="links" data-sr="wait .4s">
                 <span>© 2015 OSIsoft</span> <span>|</span> <a href="http://www.osisoft.com">osisoft.com</a> <span>|</span> <a href="http://www.osisoft.com/home/Privacy_Policy.aspx">Privacy</a>
             </div>
             <div class="image-links">
                 <ul class="social">
-                    <li class="social_twitter trans">
+                    <li class="social_twitter trans" data-sr="wait .6s">
                         <a href="https://twitter.com/OSIsoft" target="_blank"></a>
                     </li>
-                    <li class="social_facebook trans">
+                    <li class="social_facebook trans" data-sr="wait .7s">
                         <a href="http://www.facebook.com/OSIsoft" target="_blank"></a>
                     </li>
-                    <li class="social_linkedin trans">
+                    <li class="social_linkedin trans" data-sr="wait .8s">
                         <a href="http://www.linkedin.com/company/osisoft" target="_blank"></a>
                     </li>
-                    <li class="social_users trans">
+                    <li class="social_users trans" data-sr="wait .9s">
                         <a href="http://community.osisoft.com/" target="_blank"></a>
                     </li>
                 </ul>
@@ -173,6 +174,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="scrollReveal.min.js"></script>
+    <script>window.sr = new scrollReveal();</script>
     <script type="text/javascript" src="main.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <!--     <script src="../../assets/js/vendor/holder.min.js"></script> -->
